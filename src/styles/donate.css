@@ -1,0 +1,146 @@
+.donate-P__intro {
+  margin-top: 30px;
+
+  opacity: .4;
+  transform: scale(0.6);
+  animation: wisible .7s forwards;
+}
+
+.donate-P__title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/* Card */
+
+.donate__card-card {
+  margin: 0 auto;
+  display: flex;
+  font-family: Nunito, sans-serif;
+  width: 564px;
+  background-color: #0e0e0e;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05), 0 5px 5px rgba(0,0,0,0.05);
+  border-radius: 10px;
+}
+
+.donate__card-img-wrap {
+  background-color:  #2c2e32 ;
+  height: 256px;
+  width: 100%;
+  border-radius: 10px 0px 0 10px;
+}
+
+.donate__card-img-wrap img {
+  margin-left: 10px;
+  height: 256px;
+}
+
+.donate__card-content-wrap {
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 120%;
+}
+
+.donate__card-price {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 5;
+  line-height: 24px;
+  color: var(--hover-color);
+}
+
+.donate__card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--text-color);
+  margin-top: 10px;
+}
+
+.donate__card-description {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+  color: var(--text-color);
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.donate__card-button {
+  display: block;
+  width: 100px;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--hover-color);
+  padding: 10px;
+  text-align: center;
+  border: 1px solid var(--hover-color);
+  border-radius: 4px;
+  cursor: pointer; /* Меняем курсор при наведении */
+  transition: 0.2s;
+  margin-top: auto;
+}
+
+.donate__card-button:hover {
+  border: 1px solid var(--hover-color);
+  background-color: var(--hover-color);
+  color: #fff;
+}
+
+.donate__card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 570px);
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  column-gap: 30px;
+  row-gap: 40px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 240px;
+}
+
+
+.foks-wraps {
+ 
+  padding: 10px;
+  width: 345px;
+  margin-top: 40px;
+}
+
+
+
+@media (max-width:550px) {
+  .donate__card-img-wrap {
+    display: none;
+  }
+  .donate__card-card {
+    width: 100vw;
+    margin-left: 0;
+    margin-top: 0;
+    max-width: 65%;
+    padding: 20px;
+    margin-left: auto;
+  }
+  .donate__card-content-wrap {
+    width: 100vw;
+  }
+  .donate__card-grid {
+    margin-bottom: 60px;
+  }
+  
+}
+
+/* .foks-wraps h1 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px
+
+} */
+

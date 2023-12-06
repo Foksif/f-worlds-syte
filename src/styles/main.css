@@ -1,0 +1,191 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:wght@500;600;700;900&family=Mooli&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  /* Colors */
+  --second-bg-color: #393942;
+  --text-color: #ffffff;
+  --bg-color: #18181b;
+  --hover-color: #8c0bbf;
+  --text-sub-color: #e4e4e7;
+  --neon-box-shadow: 0 0 .5rem #8c0bbf;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro__buttons {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 45px;
+}
+
+.intro__buttons .button {
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+  background: var(--hover-color);
+  color: var(--bg-color);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: .6s;
+  box-shadow: var(--neon-box-shadow);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid var(--hover-color);
+
+  /* font-size: 17px;
+  color: var(--text-color);
+  background: var(--hover-color);
+  padding: 10px 25px;
+  border-radius: 9px;
+  margin-right: 10px;
+  border: 1px solid #9d73ac;
+  transition: all .5s; */
+
+}
+
+.gray {
+  background: #555353;
+  border: 1px solid #9f9fa0;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button:hover {
+  color: var(--hover-color);
+}
+
+.button:hover::before {
+  width: 100%;
+}
+
+.button:nth-child(2) {
+  background: var(--bg-color);
+  color: var(--hover-color);
+}
+
+.button:nth-child(2):hover {
+  color: var(--bg-color);
+}
+
+.button:nth-child(2)::before {
+  background: var(--hover-color);
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--bg-color);
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: .4s;
+}
+
+.curcle {
+  margin-left: 7px;
+  margin-right: 7px;
+  background: var(--second-bg-color);
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  line-height: inherit;
+  margin-top: 3px;
+}
+
+
+
+/* .......... */
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  width: 220px;
+  height: 40px;
+}
+
+.social-icons a {
+  display: inline-flex;
+  width: 50px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-color);
+  color: var(--hover-color);
+  border: 2px solid var(--hover-color);
+  transition: .6s;
+  box-shadow: 0 0 0.3rem var(--hover-color);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.social-icons a i {
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: var(--bg-color);
+}
+
+.social-icons a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: var(--hover-color);
+  transition: .6s;
+  z-index: -1;
+}
+
+.social-icons a:hover::before {
+  width: 100%;
+}
+
+
+
+/* Adaptive */
+
+@media (max-width:550px) {
+  .intro__buttons {
+    display: block;
+    width: 300px;
+  }
+  .intro__buttons .button {
+    margin-bottom: 10px;
+    display: block;
+    max-width: 100%;
+
+  }
+ 
+}
