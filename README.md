@@ -20,20 +20,20 @@ Website for a vanilla minecraft server with the purchase of a login to the serve
 To launch the application use
 
 ```bash
+  npm init
+  and
   npm run start
-  or
-  npm start
 ```
 
 
-## Build
+## Dev
 
 To build the project use
 
 ```bash
-  npm run build
-  or
-  npm build
+  npm init
+  and
+  npm run dev
 ```
 
 
