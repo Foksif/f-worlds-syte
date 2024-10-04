@@ -11,7 +11,7 @@ Website for a vanilla minecraft server with the purchase of a login to the serve
 
 ## Tech Stack
 
-**Client:** React, ReactRouterDOM, Axios
+**Client:** React, ReactRouterDOM, Axios, MaterialUI
 
 
 
