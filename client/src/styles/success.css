@@ -1,0 +1,87 @@
+.input__block {
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+.input__block:last-child {
+	margin-bottom: 0;
+}
+
+.input__block input {
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	font-size: 18px;
+	padding: 10px 32px 10px 15px;
+
+	border: 2px solid var(--second-bg-color);
+	border-radius: 10px;
+
+	/* color: var(--hover-color); */
+}
+
+.input__block textarea {
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 150px;
+	height: 150px;
+	max-height: 150px;
+	background: transparent;
+	font-size: 18px;
+	padding: 10px 32px 10px 15px;
+
+	border: 2px solid var(--second-bg-color);
+	border-radius: 10px;
+
+	outline: none;
+}
+
+.input__block_button {
+	width: 100%;
+	background: rgb(255, 85, 60);
+	background: linear-gradient(
+		54deg,
+		rgba(255, 139, 62, 1) 0%,
+		rgba(255, 60, 139, 1) 100%
+	) !important;
+	/* padding: 15px; */
+	text-align: center;
+	border-radius: 30px;
+	margin-top: 15px;
+	transition: all 0.3s linear;
+	margin-bottom: 60px;
+}
+
+.input__block_button input[type='submit'] {
+	padding: 15px;
+	width: 100%;
+}
+
+.input__block_button:hover {
+	transition: all 0.3s linear;
+	box-shadow: 0px 0px 18px 5px rgba(223, 146, 21, 0.37);
+}
+
+.input__wrapper {
+	display: flex;
+	max-width: 600px;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.input__wrapper_wrap {
+	width: 100%;
+}
+
+.input__wrapper_wrap h1 {
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.input__wrapper_wrap span {
+	color: var(--hover-color);
+}

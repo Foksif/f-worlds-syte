@@ -1,0 +1,360 @@
+.donate-P__intro {
+	margin-top: 30px;
+
+	opacity: 0.4;
+	transform: scale(0.6);
+	animation: wisible 0.7s forwards;
+}
+
+.donate-P__title {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 3.5rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+/* Card */
+
+.donate__card-content-wrap {
+	padding-right: 10px;
+}
+
+.donate__card-card {
+	margin: 0 auto;
+	display: flex;
+	font-family: Nunito, sans-serif;
+	width: 564px;
+	background-color: #0e0e0e;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+}
+
+.donate__card-img-wrap {
+	background-color: #2c2e32;
+	height: 256px;
+	width: 100%;
+	border-radius: 10px 0px 0 10px;
+}
+
+.donate__card-img-wrap img {
+	margin-left: 10px;
+	height: 256px;
+}
+
+.donate__card-content-wrap {
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 120%;
+}
+
+.donate__card-price {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 5;
+	line-height: 24px;
+	color: var(--hover-color);
+}
+
+.donate__card-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: var(--text-color);
+	margin-top: 10px;
+}
+
+.donate__card-description {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--text-color);
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.donate__card-button {
+	display: block;
+	/* width: 100px; */
+	font-weight: 400;
+	font-size: 17px;
+	color: var(--hover-color);
+	padding: 10px;
+	text-align: center;
+	border: 1px solid var(--hover-color);
+	border-radius: 4px;
+	cursor: pointer; /* Меняем курсор при наведении */
+	transition: 0.2s;
+	margin-top: auto;
+}
+
+.donate__card-button:hover {
+	border: 1px solid var(--hover-color);
+	background-color: var(--hover-color);
+	color: #fff;
+}
+
+.donate__card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 570px);
+	width: 100%;
+	justify-content: space-between;
+	justify-items: center;
+	/* column-gap: 30px; */
+	row-gap: 40px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.donate__stars {
+	align-items: center;
+	display: flex;
+	width: 100%;
+	height: 200px;
+	/* margin: 15px; */
+	background-color: #0e0e0e;
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+.donate__star_left {
+	display: flex;
+	margin-right: 50px;
+}
+
+.donate__star_right {
+	width: 100%;
+	height: auto;
+}
+
+.donate__star_right h3 {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.donate__star_right-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.star__right_subblock {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+	border: 1px solid var(--hover-color);
+	height: 50px;
+	align-items: center;
+	margin-top: 10px;
+
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.colored {
+	color: var(--hover-color);
+}
+
+.star__right_subblock:first-child {
+	border-radius: 10px 0 0 10px;
+}
+
+.star__right_subblock:nth-child(2) {
+	border-radius: 0 10px 10px 0;
+}
+
+.star__sub {
+	display: flex;
+	width: 100%;
+}
+
+.star__button {
+	display: block;
+	margin-left: 30px;
+	/* width: 100px; */
+	font-weight: 500;
+	font-size: 17px;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid var(--hover-color);
+	border-radius: 10px;
+	cursor: pointer; /* Меняем курсор при наведении */
+	transition: 0.2s;
+	margin-top: auto;
+	height: 50px;
+	background-color: var(--hover-color);
+	font-size: 18px;
+}
+
+.star__button:hover {
+	border: 1px solid var(--hover-color);
+	/* background-color: var(--hover-color);
+	color: #fff; */
+
+	color: var(--hover-color);
+	background-color: transparent;
+}
+
+.foks-wraps {
+	padding: 10px;
+	width: 345px;
+	margin-top: 40px;
+}
+
+.image {
+	width: 150px;
+}
+
+/* Modal */
+
+.donate__modal_wrapper {
+	display: flex;
+	width: 800px;
+}
+
+.donate__modal_left {
+	background-color: rgb(36, 36, 36);
+
+	width: 55%;
+	padding: 10px;
+	border-radius: 6px;
+}
+
+.donate__modal_left p {
+	margin-top: 8px;
+}
+
+.donate__modal_left p i {
+	margin-right: 8px;
+	color: var(--hover-color);
+}
+
+.donate__modal_right {
+	width: 40%;
+	/* padding: 10px; */
+	border-radius: 6px;
+}
+
+.modal__right_block {
+	background-color: rgb(36, 36, 36);
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 20px;
+	border-radius: 6px;
+}
+
+.modal__right_block:last-child {
+	margin-bottom: 0;
+}
+
+.modal__input_box {
+	border: 2px solid var(--hover-color);
+	position: relative;
+	border-radius: 15px;
+	margin-bottom: 25px;
+}
+
+.modal__input_box:last-child {
+	margin-bottom: 0;
+}
+
+.modal__input_box label {
+	background-color: #242424;
+
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	transform: translateY(-50%);
+	color: var(--hover-color);
+	font-size: 1em;
+	pointer-events: none;
+	transition: 0.5s;
+	padding: 0 3px 0 3px;
+}
+
+.modal__input_box input {
+	width: 100%;
+	height: 40px;
+	background: transparent;
+	font-size: 1em;
+	padding: 0 35px 0 15px;
+}
+
+.modal__right_bottom-content h1 {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.modal__bottom_sub {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	color: #d6d6d6;
+}
+
+.modal__bottom_sub h3 {
+	font-weight: 400;
+}
+
+.outline {
+	width: 100%;
+	border-bottom: 2px dashed #fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.modal__bottom_button {
+	width: 100%;
+	background: rgb(255, 85, 60);
+	background: linear-gradient(
+		54deg,
+		rgba(255, 85, 60, 1) 0%,
+		rgba(255, 192, 0, 1) 100%
+	) !important;
+	padding: 15px;
+	text-align: center;
+	border-radius: 30px;
+	margin-top: 15px;
+	transition: all 0.3s linear;
+}
+
+.modal__bottom_button:hover {
+	transform: scale(1.06);
+	transition: all 0.3s linear;
+	box-shadow: 0px 0px 18px 5px rgba(223, 146, 21, 0.37);
+}
+
+@media (max-width: 550px) {
+	.donate__card-img-wrap {
+		display: none;
+	}
+	.donate__card-card {
+		width: 100vw;
+		margin-left: 0;
+		margin-top: 0;
+		max-width: 65%;
+		padding: 20px;
+		margin-left: auto;
+	}
+	.donate__card-content-wrap {
+		width: 100vw;
+	}
+	.donate__card-grid {
+		margin-bottom: 60px;
+	}
+}
+
+/* .foks-wraps h1 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px
+
+} */
