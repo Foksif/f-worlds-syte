@@ -13,7 +13,7 @@ Website for a vanilla minecraft server with the purchase of a login to the serve
 
 **Client:** React, ReactRouterDOM, Axios, MaterialUI
 
-
+**Server:** NestJS, JWT, Bcrypt, Prisma
 
 ## Deployment
 
